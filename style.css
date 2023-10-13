@@ -19,3 +19,10 @@ justify-content i samma riktning
   padding: 20px;
   margin: 10px;
 }
+
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
